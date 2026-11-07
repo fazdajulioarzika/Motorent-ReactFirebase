@@ -1,0 +1,20 @@
+{
+	"name": "api",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-11-01",
+	"triggers": { "crons": ["*/15 * * * *"] },
+	"vars": {
+		"ALLOWED_ORIGINS": "https://motorent-7e993.web.app,https://motorent-7e993.firebaseapp.com",
+		"CLOUDINARY_CLOUD_NAME": "uhfkz5tz",
+		"CLOUDINARY_API_KEY": "792196668275971",
+		"BANK_NAME": "BRI",
+		"BANK_ACCOUNT": "1234567890",
+		"BANK_HOLDER": "PT. MotoRent Indonesia",
+		"APP_URL": "https://motorent-7e993.web.app",
+		"EMAIL_FROM": "MotoRent <onboarding@resend.dev>",
+		"RENTAL_NAME": "MotoRent",
+		"RENTAL_ADDRESS": "Jl. Raya Bogor No. 123, Jakarta, Indonesia",
+		"RENTAL_WHATSAPP": "628123456789",
+		"REMINDERS_ENABLED": "true"
+	}
+}
